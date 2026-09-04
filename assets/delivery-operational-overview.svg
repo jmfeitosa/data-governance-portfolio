@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Data Governance Delivery Dashboard - Operational Overview</title>
+  <desc id="desc">Operational dashboard mockup based on 53 synthetic delivery work items as of July 1, 2025. It shows open work, active workload, assignment coverage, ageing, cycle time, workload by assignee, item composition, and critical items.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#17324D" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .subtitle { font-size: 13px; font-weight: 400; fill: #DCE6EF; }
+      .page-title { font-size: 22px; font-weight: 700; fill: #17212B; }
+      .section-title { font-size: 16px; font-weight: 700; fill: #17212B; }
+      .label { font-size: 11px; font-weight: 700; fill: #667085; letter-spacing: 0.2px; }
+      .value { font-size: 31px; font-weight: 750; fill: #17212B; }
+      .small { font-size: 10.5px; font-weight: 500; fill: #667085; }
+      .body { font-size: 11.5px; font-weight: 500; fill: #344054; }
+      .axis { font-size: 10px; font-weight: 500; fill: #667085; }
+      .nav { font-size: 12px; font-weight: 650; fill: #DCE6EF; }
+      .nav-active { font-size: 12px; font-weight: 700; fill: #17324D; }
+      .table-head { font-size: 10px; font-weight: 750; fill: #667085; letter-spacing: 0.3px; }
+      .table-text { font-size: 10.5px; font-weight: 550; fill: #344054; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F5F7FA"/>
+
+  <rect x="0" y="0" width="1440" height="88" fill="#17324D"/>
+  <circle cx="42" cy="44" r="21" fill="#2CA58D"/>
+  <path d="M32 45 L40 53 L54 35" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="38" class="title">Data Governance Delivery</text>
+  <text x="78" y="61" class="subtitle">Operational monitoring • Synthetic portfolio demonstration</text>
+
+  <text x="935" y="49" text-anchor="middle" class="nav">Executive</text>
+  <rect x="978" y="26" width="122" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="1039" y="49" text-anchor="middle" class="nav-active">Operational</text>
+  <text x="1150" y="49" text-anchor="middle" class="nav">Backlog</text>
+  <text x="1244" y="49" text-anchor="middle" class="nav">Risks</text>
+  <rect x="1315" y="23" width="101" height="42" rx="8" fill="#244761"/>
+  <text x="1365.5" y="49" text-anchor="middle" class="nav">Reset filters</text>
+
+  <text x="24" y="126" class="page-title">Operational Overview</text>
+  <text x="24" y="148" class="small">Workload, ownership, ageing and actionable delivery detail</text>
+  <rect x="1119" y="109" width="297" height="46" rx="8" fill="#E9EEF4"/>
+  <text x="1137" y="128" class="small">REPORTING CONTEXT</text>
+  <text x="1137" y="146" class="body">All workstreams  •  As of 1 Jul 2025</text>
+
+  <g>
+    <rect x="24" y="174" width="260" height="100" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="24" y="174" width="5" height="100" rx="3" fill="#17324D"/>
+    <text x="44" y="201" class="label">OPEN DELIVERY ITEMS</text>
+    <text x="44" y="242" class="value">36</text>
+    <text x="44" y="260" class="small">68% of delivery scope</text>
+  </g>
+
+  <g>
+    <rect x="300" y="174" width="260" height="100" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="300" y="174" width="5" height="100" rx="3" fill="#1D4ED8"/>
+    <text x="320" y="201" class="label">ACTIVE WORKLOAD</text>
+    <text x="320" y="242" class="value">21</text>
+    <text x="320" y="260" class="small">Active + In Validation</text>
+  </g>
+
+  <g>
+    <rect x="576" y="174" width="260" height="100" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="576" y="174" width="5" height="100" rx="3" fill="#2E7D32"/>
+    <text x="596" y="201" class="label">UNASSIGNED OPEN</text>
+    <text x="596" y="242" class="value">0</text>
+    <text x="596" y="260" class="small">Ownership coverage complete</text>
+  </g>
+
+  <g>
+    <rect x="852" y="174" width="260" height="100" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="852" y="174" width="5" height="100" rx="3" fill="#B26A00"/>
+    <text x="872" y="201" class="label">AVERAGE OPEN AGE</text>
+    <text x="872" y="242" class="value">89.9</text>
+    <text x="963" y="242" font-size="14" font-weight="700" fill="#667085">days</text>
+    <text x="872" y="260" class="small">Since creation</text>
+  </g>
+
+  <g>
+    <rect x="1128" y="174" width="288" height="100" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="1128" y="174" width="5" height="100" rx="3" fill="#6D4C9F"/>
+    <text x="1148" y="201" class="label">AVERAGE CYCLE TIME</text>
+    <text x="1148" y="242" class="value">13.9</text>
+    <text x="1239" y="242" font-size="14" font-weight="700" fill="#667085">days</text>
+    <text x="1148" y="260" class="small">Activation to closure</text>
+  </g>
+
+  <g>
+    <rect x="24" y="298" width="686" height="300" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="330" class="section-title">Active workload by assignee</text>
+    <text x="46" y="350" class="small">Active and In Validation delivery items • Dynamic ranking</text>
+
+    <circle cx="474" cy="329" r="5" fill="#1D4ED8"/>
+    <text x="486" y="333" class="small">Active</text>
+    <circle cx="544" cy="329" r="5" fill="#B26A00"/>
+    <text x="556" y="333" class="small">In Validation</text>
+
+    <text x="46" y="385" class="body">Governance Analyst A</text>
+    <rect x="206" y="373" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="373" width="306" height="14" rx="7" fill="#1D4ED8"/>
+    <path d="M512 373 H607 Q614 373 614 380 Q614 387 607 387 H512 Z" fill="#B26A00"/>
+    <text x="632" y="385" class="body">4</text>
+
+    <text x="46" y="415" class="body">Data Steward B</text>
+    <rect x="206" y="403" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="403" width="306" height="14" rx="7" fill="#1D4ED8"/>
+    <path d="M512 403 H607 Q614 403 614 410 Q614 417 607 417 H512 Z" fill="#B26A00"/>
+    <text x="632" y="415" class="body">4</text>
+
+    <text x="46" y="445" class="body">Data Architect</text>
+    <rect x="206" y="433" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="433" width="306" height="14" rx="7" fill="#1D4ED8"/>
+    <path d="M512 433 H607 Q614 433 614 440 Q614 447 607 447 H512 Z" fill="#B26A00"/>
+    <text x="632" y="445" class="body">4</text>
+
+    <text x="46" y="475" class="body">Governance Analyst B</text>
+    <rect x="206" y="463" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="463" width="306" height="14" rx="7" fill="#1D4ED8"/>
+    <text x="632" y="475" class="body">3</text>
+
+    <text x="46" y="505" class="body">Data Steward A</text>
+    <rect x="206" y="493" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="493" width="102" height="14" rx="7" fill="#1D4ED8"/>
+    <rect x="308" y="493" width="102" height="14" rx="7" fill="#B26A00"/>
+    <text x="632" y="505" class="body">2</text>
+
+    <text x="46" y="535" class="body">Platform Engineer</text>
+    <rect x="206" y="523" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="523" width="204" height="14" rx="7" fill="#1D4ED8"/>
+    <text x="632" y="535" class="body">2</text>
+
+    <text x="46" y="565" class="body">Privacy Specialist</text>
+    <rect x="206" y="553" width="408" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="206" y="553" width="102" height="14" rx="7" fill="#1D4ED8"/>
+    <rect x="308" y="553" width="102" height="14" rx="7" fill="#B26A00"/>
+    <text x="632" y="565" class="body">2</text>
+
+    <text x="206" y="586" class="axis">0</text>
+    <text x="308" y="586" class="axis">1</text>
+    <text x="410" y="586" class="axis">2</text>
+    <text x="512" y="586" class="axis">3</text>
+    <text x="610" y="586" class="axis">4</text>
+  </g>
+
+  <g>
+    <rect x="734" y="298" width="682" height="300" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="756" y="330" class="section-title">Open items by type and status</text>
+    <text x="756" y="350" class="small">36 open delivery items • Consistent delivery-item scope</text>
+
+    <circle cx="1040" cy="329" r="5" fill="#667085"/>
+    <text x="1052" y="333" class="small">New</text>
+    <circle cx="1099" cy="329" r="5" fill="#1D4ED8"/>
+    <text x="1111" y="333" class="small">Active</text>
+    <circle cx="1173" cy="329" r="5" fill="#B26A00"/>
+    <text x="1185" y="333" class="small">Validation</text>
+    <circle cx="1266" cy="329" r="5" fill="#6D4C9F"/>
+    <text x="1278" y="333" class="small">On hold</text>
+
+    <text x="756" y="402" class="body">User Story</text>
+    <rect x="852" y="383" width="490" height="26" rx="6" fill="#E9EEF4"/>
+    <rect x="852" y="383" width="280" height="26" rx="6" fill="#1D4ED8"/>
+    <rect x="1132" y="383" width="105" height="26" fill="#B26A00"/>
+    <path d="M1237 383 H1335 Q1342 383 1342 390 V402 Q1342 409 1335 409 H1237 Z" fill="#6D4C9F"/>
+    <text x="1360" y="402" class="body">14</text>
+
+    <text x="756" y="456" class="body">Task</text>
+    <rect x="852" y="437" width="490" height="26" rx="6" fill="#E9EEF4"/>
+    <rect x="852" y="437" width="163" height="26" rx="6" fill="#667085"/>
+    <rect x="1015" y="437" width="163" height="26" fill="#1D4ED8"/>
+    <rect x="1178" y="437" width="82" height="26" fill="#B26A00"/>
+    <path d="M1260 437 H1335 Q1342 437 1342 444 V456 Q1342 463 1335 463 H1260 Z" fill="#6D4C9F"/>
+    <text x="1360" y="456" class="body">12</text>
+
+    <text x="756" y="510" class="body">Enabler</text>
+    <rect x="852" y="491" width="490" height="26" rx="6" fill="#E9EEF4"/>
+    <rect x="852" y="491" width="327" height="26" rx="6" fill="#667085"/>
+    <path d="M1179 491 H1335 Q1342 491 1342 498 V510 Q1342 517 1335 517 H1179 Z" fill="#1D4ED8"/>
+    <text x="1360" y="510" class="body">6</text>
+
+    <text x="756" y="564" class="body">Bug</text>
+    <rect x="852" y="545" width="490" height="26" rx="6" fill="#E9EEF4"/>
+    <rect x="852" y="545" width="245" height="26" rx="6" fill="#667085"/>
+    <path d="M1097 545 H1335 Q1342 545 1342 552 V564 Q1342 571 1335 571 H1097 Z" fill="#1D4ED8"/>
+    <text x="1360" y="564" class="body">4</text>
+  </g>
+
+  <g>
+    <rect x="24" y="622" width="1392" height="242" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="654" class="section-title">Critical open items</text>
+    <text x="46" y="674" class="small">Oldest synthetic items meeting at least one governed risk condition</text>
+    <rect x="46" y="693" width="1348" height="28" rx="5" fill="#F2F4F7"/>
+
+    <text x="59" y="712" class="table-head">ID</text>
+    <text x="115" y="712" class="table-head">TITLE</text>
+    <text x="590" y="712" class="table-head">ASSIGNEE</text>
+    <text x="790" y="712" class="table-head">STATUS</text>
+    <text x="940" y="712" class="table-head">AGE</text>
+    <text x="1030" y="712" class="table-head">RISK REASON</text>
+
+    <line x1="46" y1="750" x2="1394" y2="750" stroke="#EAECF0"/>
+    <text x="59" y="743" class="table-text">1102</text>
+    <text x="115" y="743" class="table-text">Implement metadata quality rules 03</text>
+    <text x="590" y="743" class="table-text">Data Steward A</text>
+    <rect x="790" y="727" width="62" height="20" rx="10" fill="#E8EEFF"/>
+    <text x="821" y="741" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1D4ED8">Active</text>
+    <text x="940" y="743" class="table-text">162 days</text>
+    <text x="1030" y="743" class="table-text">Overdue • Stale</text>
+
+    <line x1="46" y1="781" x2="1394" y2="781" stroke="#EAECF0"/>
+    <text x="59" y="774" class="table-text">1103</text>
+    <text x="115" y="774" class="table-text">Validate source-to-report lineage 04</text>
+    <text x="590" y="774" class="table-text">Data Steward B</text>
+    <rect x="790" y="758" width="52" height="20" rx="10" fill="#F2F4F7"/>
+    <text x="816" y="772" text-anchor="middle" font-size="9.5" font-weight="700" fill="#667085">New</text>
+    <text x="940" y="774" class="table-text">159 days</text>
+    <text x="1030" y="774" class="table-text">Overdue</text>
+
+    <line x1="46" y1="812" x2="1394" y2="812" stroke="#EAECF0"/>
+    <text x="59" y="805" class="table-text">1104</text>
+    <text x="115" y="805" class="table-text">Document critical data elements 05</text>
+    <text x="590" y="805" class="table-text">Data Architect</text>
+    <rect x="790" y="789" width="90" height="20" rx="10" fill="#FFF3D6"/>
+    <text x="835" y="803" text-anchor="middle" font-size="9.5" font-weight="700" fill="#B26A00">In Validation</text>
+    <text x="940" y="805" class="table-text">156 days</text>
+    <text x="1030" y="805" class="table-text">Overdue • Stale</text>
+
+    <line x1="46" y1="843" x2="1394" y2="843" stroke="#EAECF0"/>
+    <text x="59" y="836" class="table-text">1105</text>
+    <text x="115" y="836" class="table-text">Review data quality scorecard 06</text>
+    <text x="590" y="836" class="table-text">Platform Engineer</text>
+    <rect x="790" y="820" width="62" height="20" rx="10" fill="#E8EEFF"/>
+    <text x="821" y="834" text-anchor="middle" font-size="9.5" font-weight="700" fill="#1D4ED8">Active</text>
+    <text x="940" y="836" class="table-text">153 days</text>
+    <text x="1030" y="836" class="table-text">Overdue • Stale</text>
+  </g>
+
+  <text x="24" y="888" class="small">Synthetic portfolio data • Metric definitions documented in metric-dictionary.md • No internal or personal data</text>
+  <text x="1416" y="888" text-anchor="end" class="small">Operational Overview • Public mockup</text>
+</svg>
