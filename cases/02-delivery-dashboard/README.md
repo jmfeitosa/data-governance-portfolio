@@ -8,6 +8,8 @@ This case presents a delivery dashboard designed to monitor the implementation o
 
 The public case is anonymized. Names, organizations, project identifiers, internal URLs, and business-sensitive records from the original implementation are not included.
 
+![Synthetic executive dashboard overview](../../assets/delivery-executive-overview.svg)
+
 ## Business challenge
 
 Data Governance programs usually span policies, metadata, data quality, privacy, access, lifecycle, architecture, and multiple business domains. When delivery information remains only in a work-management tool, leaders may struggle to answer:
@@ -199,6 +201,7 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 - [Delivery Dashboard Data Preparation](data-preparation.md)
 - [Delivery Dashboard Release Checklist](release-checklist.md)
 - [Public Dashboard Design Specification](dashboard-design.md)
+- [Synthetic Executive Overview Mockup](../../assets/delivery-executive-overview.svg)
 
 ## Planned public artifacts
 
