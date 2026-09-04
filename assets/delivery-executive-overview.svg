@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Data Governance Delivery Dashboard - Executive Overview</title>
+  <desc id="desc">Executive dashboard mockup based on 53 synthetic delivery work items as of July 1, 2025. It shows completion, status composition, workstream progress, and risk signals.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#17324D" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .subtitle { font-size: 13px; font-weight: 400; fill: #DCE6EF; }
+      .page-title { font-size: 22px; font-weight: 700; fill: #17212B; }
+      .section-title { font-size: 16px; font-weight: 700; fill: #17212B; }
+      .label { font-size: 12px; font-weight: 600; fill: #667085; letter-spacing: 0.2px; }
+      .value { font-size: 31px; font-weight: 750; fill: #17212B; }
+      .small { font-size: 11px; font-weight: 500; fill: #667085; }
+      .body { font-size: 12px; font-weight: 500; fill: #344054; }
+      .legend { font-size: 11px; font-weight: 600; fill: #475467; }
+      .nav { font-size: 12px; font-weight: 650; fill: #DCE6EF; }
+      .nav-active { font-size: 12px; font-weight: 700; fill: #17324D; }
+      .insight { font-size: 13px; font-weight: 600; fill: #344054; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F5F7FA"/>
+
+  <rect x="0" y="0" width="1440" height="88" fill="#17324D"/>
+  <circle cx="42" cy="44" r="21" fill="#2CA58D"/>
+  <path d="M32 45 L40 53 L54 35" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="38" class="title">Data Governance Delivery</text>
+  <text x="78" y="61" class="subtitle">Executive monitoring • Synthetic portfolio demonstration</text>
+
+  <rect x="925" y="26" width="112" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="981" y="49" text-anchor="middle" class="nav-active">Executive</text>
+  <text x="1071" y="49" text-anchor="middle" class="nav">Operational</text>
+  <text x="1168" y="49" text-anchor="middle" class="nav">Backlog</text>
+  <text x="1260" y="49" text-anchor="middle" class="nav">Risks</text>
+  <rect x="1315" y="23" width="101" height="42" rx="8" fill="#244761"/>
+  <text x="1365.5" y="49" text-anchor="middle" class="nav">Reset filters</text>
+
+  <text x="24" y="126" class="page-title">Executive Overview</text>
+  <text x="24" y="148" class="small">Portfolio delivery, status and risk signals</text>
+  <rect x="1119" y="109" width="297" height="46" rx="8" fill="#E9EEF4"/>
+  <text x="1137" y="128" class="small">REPORTING CONTEXT</text>
+  <text x="1137" y="146" class="body">All workstreams  •  As of 1 Jul 2025</text>
+
+  <g>
+    <rect x="24" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="24" y="174" width="5" height="108" rx="3" fill="#17324D"/>
+    <text x="44" y="203" class="label">DELIVERY SCOPE</text>
+    <text x="44" y="247" class="value">53</text>
+    <text x="44" y="267" class="small">Executable work items</text>
+  </g>
+
+  <g>
+    <rect x="254" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="254" y="174" width="5" height="108" rx="3" fill="#2E7D32"/>
+    <text x="274" y="203" class="label">COMPLETION</text>
+    <text x="274" y="247" class="value">32%</text>
+    <text x="274" y="267" class="small">17 items closed</text>
+  </g>
+
+  <g>
+    <rect x="484" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="484" y="174" width="5" height="108" rx="3" fill="#1D4ED8"/>
+    <text x="504" y="203" class="label">ACTIVE</text>
+    <text x="504" y="247" class="value">16</text>
+    <text x="504" y="267" class="small">30% of delivery scope</text>
+  </g>
+
+  <g>
+    <rect x="714" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="714" y="174" width="5" height="108" rx="3" fill="#B26A00"/>
+    <text x="734" y="203" class="label">IN VALIDATION</text>
+    <text x="734" y="247" class="value">5</text>
+    <text x="734" y="267" class="small">Awaiting review</text>
+  </g>
+
+  <g>
+    <rect x="944" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="944" y="174" width="5" height="108" rx="3" fill="#6D4C9F"/>
+    <text x="964" y="203" class="label">ON HOLD</text>
+    <text x="964" y="247" class="value">5</text>
+    <text x="964" y="267" class="small">Formally paused</text>
+  </g>
+
+  <g>
+    <rect x="1174" y="174" width="242" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="1174" y="174" width="5" height="108" rx="3" fill="#B42318"/>
+    <text x="1194" y="203" class="label">AT RISK</text>
+    <text x="1194" y="247" class="value">33</text>
+    <rect x="1282" y="218" width="111" height="29" rx="14.5" fill="#FEE4E2"/>
+    <text x="1337.5" y="237" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="12" font-weight="700" fill="#B42318">92% of open</text>
+    <text x="1194" y="267" class="small">Blocked, overdue or stale</text>
+  </g>
+
+  <g>
+    <rect x="24" y="306" width="606" height="332" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="338" class="section-title">Delivery status composition</text>
+    <text x="46" y="359" class="small">53 delivery items • Mutually exclusive normalized states</text>
+
+    <rect x="46" y="390" width="562" height="50" rx="7" fill="#E9EEF4"/>
+    <path d="M53 390 H226 V440 H53 Q46 440 46 433 V397 Q46 390 53 390 Z" fill="#2E7D32"/>
+    <rect x="226" y="390" width="170" height="50" fill="#1D4ED8"/>
+    <rect x="396" y="390" width="106" height="50" fill="#667085"/>
+    <rect x="502" y="390" width="53" height="50" fill="#B26A00"/>
+    <path d="M555 390 H601 Q608 390 608 397 V433 Q608 440 601 440 H555 Z" fill="#6D4C9F"/>
+
+    <text x="136" y="420" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">17 closed</text>
+    <text x="311" y="420" text-anchor="middle" font-size="13" font-weight="700" fill="#FFFFFF">16 active</text>
+    <text x="449" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">10 new</text>
+    <text x="528" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">5</text>
+    <text x="581" y="420" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF">5</text>
+
+    <circle cx="52" cy="479" r="5" fill="#2E7D32"/>
+    <text x="64" y="483" class="legend">Closed 32%</text>
+    <circle cx="170" cy="479" r="5" fill="#1D4ED8"/>
+    <text x="182" y="483" class="legend">Active 30%</text>
+    <circle cx="279" cy="479" r="5" fill="#667085"/>
+    <text x="291" y="483" class="legend">New 19%</text>
+    <circle cx="376" cy="479" r="5" fill="#B26A00"/>
+    <text x="388" y="483" class="legend">Validation 9%</text>
+    <circle cx="497" cy="479" r="5" fill="#6D4C9F"/>
+    <text x="509" y="483" class="legend">On hold 9%</text>
+
+    <line x1="46" y1="518" x2="608" y2="518" stroke="#E4E7EC"/>
+    <text x="46" y="547" class="label">EXECUTIVE INTERPRETATION</text>
+    <text x="46" y="573" class="body">68% of the current delivery scope remains open.</text>
+    <text x="46" y="596" class="body">Validation and paused work represent 19% of all delivery items.</text>
+    <rect x="46" y="609" width="195" height="19" rx="9.5" fill="#ECFDF3"/>
+    <text x="143.5" y="622" text-anchor="middle" font-size="10.5" font-weight="700" fill="#2E7D32">Status reconciliation: passed</text>
+  </g>
+
+  <g>
+    <rect x="654" y="306" width="762" height="332" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="676" y="338" class="section-title">Completion by workstream</text>
+    <text x="676" y="359" class="small">Closed delivery items divided by total delivery items</text>
+
+    <text x="676" y="395" class="body">Governance Foundation</text>
+    <rect x="900" y="382" width="390" height="16" rx="8" fill="#E9EEF4"/>
+    <rect x="900" y="382" width="215" height="16" rx="8" fill="#2E7D32"/>
+    <text x="1310" y="395" class="body">55%</text>
+    <rect x="1350" y="379" width="44" height="22" rx="11" fill="#FEE4E2"/>
+    <text x="1372" y="394" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B42318">5 risk</text>
+
+    <text x="676" y="441" class="body">Metadata and Lineage</text>
+    <rect x="900" y="428" width="390" height="16" rx="8" fill="#E9EEF4"/>
+    <rect x="900" y="428" width="215" height="16" rx="8" fill="#2E7D32"/>
+    <text x="1310" y="441" class="body">55%</text>
+    <rect x="1350" y="425" width="44" height="22" rx="11" fill="#FEE4E2"/>
+    <text x="1372" y="440" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B42318">5 risk</text>
+
+    <text x="676" y="487" class="body">Data Quality</text>
+    <rect x="900" y="474" width="390" height="16" rx="8" fill="#E9EEF4"/>
+    <rect x="900" y="474" width="176" height="16" rx="8" fill="#2E7D32"/>
+    <text x="1310" y="487" class="body">45%</text>
+    <rect x="1350" y="471" width="44" height="22" rx="11" fill="#FEE4E2"/>
+    <text x="1372" y="486" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B42318">6 risk</text>
+
+    <text x="676" y="533" class="body">Access and Privacy</text>
+    <rect x="900" y="520" width="390" height="16" rx="8" fill="#E9EEF4"/>
+    <rect x="900" y="520" width="3" height="16" rx="2" fill="#B42318"/>
+    <text x="1310" y="533" class="body">0%</text>
+    <rect x="1350" y="517" width="44" height="22" rx="11" fill="#FEE4E2"/>
+    <text x="1372" y="532" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B42318">8 risk</text>
+
+    <text x="676" y="579" class="body">Master Data and Lifecycle</text>
+    <rect x="900" y="566" width="390" height="16" rx="8" fill="#E9EEF4"/>
+    <rect x="900" y="566" width="3" height="16" rx="2" fill="#B42318"/>
+    <text x="1310" y="579" class="body">0%</text>
+    <rect x="1350" y="563" width="44" height="22" rx="11" fill="#FEE4E2"/>
+    <text x="1372" y="578" text-anchor="middle" font-size="10.5" font-weight="700" fill="#B42318">9 risk</text>
+
+    <line x1="900" y1="605" x2="1290" y2="605" stroke="#D0D5DD"/>
+    <text x="900" y="624" class="small">0%</text>
+    <text x="1087" y="624" class="small">50%</text>
+    <text x="1268" y="624" class="small">100%</text>
+  </g>
+
+  <g>
+    <rect x="24" y="662" width="606" height="202" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="695" class="section-title">Risk signals</text>
+    <text x="46" y="716" class="small">Conditions can overlap; At Risk counts each item once</text>
+
+    <rect x="46" y="741" width="129" height="89" rx="8" fill="#FFF4F2"/>
+    <text x="60" y="765" class="label">AT RISK</text>
+    <text x="60" y="802" font-size="27" font-weight="750" fill="#B42318">33</text>
+    <text x="60" y="820" class="small">of 36 open</text>
+
+    <rect x="187" y="741" width="129" height="89" rx="8" fill="#FFF8E8"/>
+    <text x="201" y="765" class="label">OVERDUE</text>
+    <text x="201" y="802" font-size="27" font-weight="750" fill="#B26A00">31</text>
+    <text x="201" y="820" class="small">past due date</text>
+
+    <rect x="328" y="741" width="129" height="89" rx="8" fill="#EEF4FF"/>
+    <text x="342" y="765" class="label">STALE</text>
+    <text x="342" y="802" font-size="27" font-weight="750" fill="#1D4ED8">19</text>
+    <text x="342" y="820" class="small">&gt;14 days</text>
+
+    <rect x="469" y="741" width="139" height="89" rx="8" fill="#F4F0FA"/>
+    <text x="483" y="765" class="label">BLOCKED</text>
+    <text x="483" y="802" font-size="27" font-weight="750" fill="#6D4C9F">6</text>
+    <text x="483" y="820" class="small">explicit or on hold</text>
+  </g>
+
+  <g>
+    <rect x="654" y="662" width="762" height="202" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="676" y="695" class="section-title">Decision focus</text>
+    <text x="676" y="716" class="small">Synthetic insights generated from the governed metric definitions</text>
+
+    <circle cx="687" cy="751" r="9" fill="#FEE4E2"/>
+    <text x="687" y="755" text-anchor="middle" font-size="11" font-weight="800" fill="#B42318">1</text>
+    <text x="708" y="755" class="insight">Prioritize the 33 open items that meet at least one risk condition.</text>
+
+    <circle cx="687" cy="787" r="9" fill="#FFF8E8"/>
+    <text x="687" y="791" text-anchor="middle" font-size="11" font-weight="800" fill="#B26A00">2</text>
+    <text x="708" y="791" class="insight">Review Access and Privacy and Master Data and Lifecycle: 0% closed.</text>
+
+    <circle cx="687" cy="823" r="9" fill="#ECFDF3"/>
+    <text x="687" y="827" text-anchor="middle" font-size="11" font-weight="800" fill="#2E7D32">3</text>
+    <text x="708" y="827" class="insight">Governance Foundation and Metadata and Lineage lead at 55% complete.</text>
+
+    <rect x="1240" y="742" width="150" height="86" rx="8" fill="#F0F9FF"/>
+    <text x="1315" y="768" text-anchor="middle" class="label">UNASSIGNED OPEN</text>
+    <text x="1315" y="803" text-anchor="middle" font-size="27" font-weight="750" fill="#1D4ED8">0</text>
+    <text x="1315" y="819" text-anchor="middle" class="small">ownership coverage</text>
+  </g>
+
+  <text x="24" y="888" class="small">Synthetic portfolio data • Metric definitions documented in metric-dictionary.md • No internal or personal data</text>
+  <text x="1416" y="888" text-anchor="end" class="small">Executive Overview • Public mockup</text>
+</svg>
