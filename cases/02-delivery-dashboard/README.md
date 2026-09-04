@@ -198,6 +198,7 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 - [Delivery Dashboard Semantic Model](semantic-model.md)
 - [Delivery Dashboard Data Preparation](data-preparation.md)
 - [Delivery Dashboard Release Checklist](release-checklist.md)
+- [Public Dashboard Design Specification](dashboard-design.md)
 
 ## Planned public artifacts
 
