@@ -103,11 +103,14 @@ The framework is informed by:
 - Brazil's General Data Protection Law (LGPD);
 - privacy by design, least privilege, segregation of duties, and accountability.
 
+## Published artifact
+
+- [Tool-Agnostic Data Governance Framework](framework.md)
+
 ## Next deliverables
 
 This case will be expanded with:
 
-- a public framework document;
 - a roles and responsibilities matrix;
 - a data-classification matrix;
 - a governance lifecycle diagram;
