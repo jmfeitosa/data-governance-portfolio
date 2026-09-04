@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Data Governance Delivery Dashboard - Risks and Bottlenecks</title>
+  <desc id="desc">Risk dashboard mockup based on synthetic delivery data as of July 1, 2025. It shows 33 at-risk items, workstream risk coverage, risk by assignee, ageing bands, and critical blocked items.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#17324D" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      text { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .title { font-size: 27px; font-weight: 700; fill: #FFFFFF; }
+      .subtitle { font-size: 13px; font-weight: 400; fill: #DCE6EF; }
+      .page-title { font-size: 22px; font-weight: 700; fill: #17212B; }
+      .section-title { font-size: 16px; font-weight: 700; fill: #17212B; }
+      .label { font-size: 10.5px; font-weight: 700; fill: #667085; letter-spacing: 0.2px; }
+      .value { font-size: 30px; font-weight: 750; fill: #17212B; }
+      .small { font-size: 10.5px; font-weight: 500; fill: #667085; }
+      .body { font-size: 11px; font-weight: 550; fill: #344054; }
+      .axis { font-size: 9.5px; font-weight: 500; fill: #667085; }
+      .nav { font-size: 12px; font-weight: 650; fill: #DCE6EF; }
+      .nav-active { font-size: 12px; font-weight: 700; fill: #17324D; }
+      .table-head { font-size: 9px; font-weight: 750; fill: #667085; letter-spacing: 0.3px; }
+      .table-text { font-size: 9.5px; font-weight: 550; fill: #344054; }
+      .table-strong { font-size: 9.5px; font-weight: 700; fill: #17212B; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="900" fill="#F5F7FA"/>
+
+  <rect x="0" y="0" width="1440" height="88" fill="#17324D"/>
+  <circle cx="42" cy="44" r="21" fill="#2CA58D"/>
+  <path d="M32 45 L40 53 L54 35" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="38" class="title">Data Governance Delivery</text>
+  <text x="78" y="61" class="subtitle">Risk monitoring • Synthetic portfolio demonstration</text>
+
+  <text x="935" y="49" text-anchor="middle" class="nav">Executive</text>
+  <text x="1037" y="49" text-anchor="middle" class="nav">Operational</text>
+  <text x="1145" y="49" text-anchor="middle" class="nav">Backlog</text>
+  <rect x="1198" y="26" width="82" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="1239" y="49" text-anchor="middle" class="nav-active">Risks</text>
+  <rect x="1315" y="23" width="101" height="42" rx="8" fill="#244761"/>
+  <text x="1365.5" y="49" text-anchor="middle" class="nav">Reset filters</text>
+
+  <text x="24" y="126" class="page-title">Risks and Bottlenecks</text>
+  <text x="24" y="148" class="small">Blocked, overdue, stale and ownership conditions</text>
+  <rect x="1119" y="109" width="297" height="46" rx="8" fill="#E9EEF4"/>
+  <text x="1137" y="128" class="small">REPORTING CONTEXT</text>
+  <text x="1137" y="146" class="body">All workstreams  •  As of 1 Jul 2025</text>
+
+  <g>
+    <rect x="24" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="24" y="174" width="5" height="108" rx="3" fill="#B42318"/>
+    <text x="44" y="203" class="label">AT-RISK ITEMS</text>
+    <text x="44" y="247" class="value">33</text>
+    <text x="44" y="267" class="small">Distinct open items</text>
+  </g>
+
+  <g>
+    <rect x="254" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="254" y="174" width="5" height="108" rx="3" fill="#B42318"/>
+    <text x="274" y="203" class="label">AT-RISK RATE</text>
+    <text x="274" y="247" class="value">92%</text>
+    <text x="274" y="267" class="small">33 of 36 open items</text>
+  </g>
+
+  <g>
+    <rect x="484" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="484" y="174" width="5" height="108" rx="3" fill="#6D4C9F"/>
+    <text x="504" y="203" class="label">BLOCKED</text>
+    <text x="504" y="247" class="value">6</text>
+    <text x="504" y="267" class="small">Explicit or On Hold</text>
+  </g>
+
+  <g>
+    <rect x="714" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="714" y="174" width="5" height="108" rx="3" fill="#B26A00"/>
+    <text x="734" y="203" class="label">OVERDUE</text>
+    <text x="734" y="247" class="value">31</text>
+    <text x="734" y="267" class="small">Due date before context</text>
+  </g>
+
+  <g>
+    <rect x="944" y="174" width="214" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="944" y="174" width="5" height="108" rx="3" fill="#1D4ED8"/>
+    <text x="964" y="203" class="label">STALE</text>
+    <text x="964" y="247" class="value">19</text>
+    <text x="964" y="267" class="small">No change for &gt;14 days</text>
+  </g>
+
+  <g>
+    <rect x="1174" y="174" width="242" height="108" rx="9" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="1174" y="174" width="5" height="108" rx="3" fill="#2E7D32"/>
+    <text x="1194" y="203" class="label">UNASSIGNED OPEN</text>
+    <text x="1194" y="247" class="value">0</text>
+    <text x="1194" y="267" class="small">Ownership coverage complete</text>
+  </g>
+
+  <g>
+    <rect x="24" y="306" width="686" height="300" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="338" class="section-title">Risk coverage by workstream</text>
+    <text x="46" y="358" class="small">At-risk items compared with total open items</text>
+    <circle cx="494" cy="337" r="5" fill="#B42318"/>
+    <text x="506" y="341" class="small">At risk</text>
+    <circle cx="563" cy="337" r="5" fill="#E9EEF4" stroke="#D0D5DD"/>
+    <text x="575" y="341" class="small">Open scope</text>
+
+    <text x="46" y="399" class="body">Master Data and Lifecycle</text>
+    <rect x="226" y="386" width="390" height="17" rx="8.5" fill="#E9EEF4"/>
+    <rect x="226" y="386" width="351" height="17" rx="8.5" fill="#B42318"/>
+    <text x="635" y="399" class="body">9 / 10</text>
+
+    <text x="46" y="443" class="body">Access and Privacy</text>
+    <rect x="226" y="430" width="390" height="17" rx="8.5" fill="#E9EEF4"/>
+    <rect x="226" y="430" width="312" height="17" rx="8.5" fill="#B42318"/>
+    <text x="635" y="443" class="body">8 / 10</text>
+
+    <text x="46" y="487" class="body">Data Quality</text>
+    <rect x="226" y="474" width="234" height="17" rx="8.5" fill="#E9EEF4"/>
+    <rect x="226" y="474" width="234" height="17" rx="8.5" fill="#B42318"/>
+    <text x="479" y="487" class="body">6 / 6</text>
+
+    <text x="46" y="531" class="body">Governance Foundation</text>
+    <rect x="226" y="518" width="195" height="17" rx="8.5" fill="#E9EEF4"/>
+    <rect x="226" y="518" width="195" height="17" rx="8.5" fill="#B42318"/>
+    <text x="440" y="531" class="body">5 / 5</text>
+
+    <text x="46" y="575" class="body">Metadata and Lineage</text>
+    <rect x="226" y="562" width="195" height="17" rx="8.5" fill="#E9EEF4"/>
+    <rect x="226" y="562" width="195" height="17" rx="8.5" fill="#B42318"/>
+    <text x="440" y="575" class="body">5 / 5</text>
+  </g>
+
+  <g>
+    <rect x="734" y="306" width="682" height="300" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="756" y="338" class="section-title">At-risk items by assignee</text>
+    <text x="756" y="358" class="small">Distinct at-risk items • Dynamic ranking</text>
+
+    <text x="756" y="391" class="body">Data Architect</text>
+    <rect x="910" y="379" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="379" width="408" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="391" class="body">6</text>
+
+    <text x="756" y="421" class="body">Data Steward A</text>
+    <rect x="910" y="409" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="409" width="340" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="421" class="body">5</text>
+
+    <text x="756" y="451" class="body">Data Steward B</text>
+    <rect x="910" y="439" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="439" width="340" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="451" class="body">5</text>
+
+    <text x="756" y="481" class="body">Governance Analyst B</text>
+    <rect x="910" y="469" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="469" width="340" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="481" class="body">5</text>
+
+    <text x="756" y="511" class="body">Platform Engineer</text>
+    <rect x="910" y="499" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="499" width="340" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="511" class="body">5</text>
+
+    <text x="756" y="541" class="body">Governance Analyst A</text>
+    <rect x="910" y="529" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="529" width="272" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="541" class="body">4</text>
+
+    <text x="756" y="571" class="body">Privacy Specialist</text>
+    <rect x="910" y="559" width="408" height="14" rx="7" fill="#FEE4E2"/>
+    <rect x="910" y="559" width="204" height="14" rx="7" fill="#B42318"/>
+    <text x="1338" y="571" class="body">3</text>
+
+    <text x="910" y="592" class="axis">0</text>
+    <text x="1044" y="592" class="axis">2</text>
+    <text x="1180" y="592" class="axis">4</text>
+    <text x="1314" y="592" class="axis">6</text>
+  </g>
+
+  <g>
+    <rect x="24" y="630" width="450" height="234" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="46" y="662" class="section-title">Open-item ageing</text>
+    <text x="46" y="682" class="small">Days since creation • 36 open items</text>
+
+    <text x="46" y="718" class="body">0–7 days</text>
+    <rect x="125" y="706" width="285" height="14" rx="7" fill="#E9EEF4"/>
+    <text x="426" y="718" class="body">0</text>
+
+    <text x="46" y="748" class="body">8–14 days</text>
+    <rect x="125" y="736" width="285" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="125" y="736" width="11" height="14" rx="7" fill="#667085"/>
+    <text x="426" y="748" class="body">1</text>
+
+    <text x="46" y="778" class="body">15–30 days</text>
+    <rect x="125" y="766" width="285" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="125" y="766" width="34" height="14" rx="7" fill="#B26A00"/>
+    <text x="426" y="778" class="body">3</text>
+
+    <text x="46" y="808" class="body">31–60 days</text>
+    <rect x="125" y="796" width="285" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="125" y="796" width="80" height="14" rx="7" fill="#B26A00"/>
+    <text x="426" y="808" class="body">7</text>
+
+    <text x="46" y="838" class="body">&gt;60 days</text>
+    <rect x="125" y="826" width="285" height="14" rx="7" fill="#E9EEF4"/>
+    <rect x="125" y="826" width="285" height="14" rx="7" fill="#B42318"/>
+    <text x="426" y="838" class="body">25</text>
+  </g>
+
+  <g>
+    <rect x="498" y="630" width="918" height="234" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="520" y="662" class="section-title">Critical blocked items</text>
+    <text x="520" y="682" class="small">Oldest open items with an explicit blocking condition</text>
+    <rect x="520" y="697" width="874" height="27" rx="5" fill="#F2F4F7"/>
+    <text x="532" y="715" class="table-head">ID</text>
+    <text x="581" y="715" class="table-head">TITLE</text>
+    <text x="890" y="715" class="table-head">ASSIGNEE</text>
+    <text x="1040" y="715" class="table-head">STATUS</text>
+    <text x="1135" y="715" class="table-head">AGE</text>
+    <text x="1200" y="715" class="table-head">RISK REASON</text>
+
+    <rect x="520" y="724" width="874" height="33" fill="#FFFFFF"/>
+    <text x="532" y="745" class="table-strong">1106</text>
+    <text x="581" y="745" class="table-text">Automate issue remediation workflow 07</text>
+    <text x="890" y="745" class="table-text">Privacy Specialist</text>
+    <rect x="1040" y="732" width="61" height="18" rx="9" fill="#F4F0FA"/>
+    <text x="1070.5" y="744.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6D4C9F">On Hold</text>
+    <text x="1135" y="745" class="table-text">150 days</text>
+    <text x="1200" y="745" class="table-text">Blocked • Overdue</text>
+
+    <rect x="520" y="757" width="874" height="33" fill="#FAFBFC"/>
+    <text x="532" y="778" class="table-strong">1116</text>
+    <text x="581" y="778" class="table-text">Define business glossary workflow 17</text>
+    <text x="890" y="778" class="table-text">Data Steward A</text>
+    <rect x="1040" y="765" width="61" height="18" rx="9" fill="#F4F0FA"/>
+    <text x="1070.5" y="777.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6D4C9F">On Hold</text>
+    <text x="1135" y="778" class="table-text">120 days</text>
+    <text x="1200" y="778" class="table-text">Blocked • Overdue</text>
+
+    <rect x="520" y="790" width="874" height="33" fill="#FFFFFF"/>
+    <text x="532" y="811" class="table-strong">1126</text>
+    <text x="581" y="811" class="table-text">Implement retention and disposal rules 27</text>
+    <text x="890" y="811" class="table-text">Platform Engineer</text>
+    <rect x="1040" y="798" width="61" height="18" rx="9" fill="#F4F0FA"/>
+    <text x="1070.5" y="810.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6D4C9F">On Hold</text>
+    <text x="1135" y="811" class="table-text">90 days</text>
+    <text x="1200" y="811" class="table-text">Blocked • Overdue</text>
+
+    <rect x="520" y="823" width="874" height="33" fill="#FAFBFC"/>
+    <text x="532" y="844" class="table-strong">1136</text>
+    <text x="581" y="844" class="table-text">Document issue remediation workflow 37</text>
+    <text x="890" y="844" class="table-text">Governance Analyst B</text>
+    <rect x="1040" y="831" width="61" height="18" rx="9" fill="#F4F0FA"/>
+    <text x="1070.5" y="843.5" text-anchor="middle" font-size="8.5" font-weight="700" fill="#6D4C9F">On Hold</text>
+    <text x="1135" y="844" class="table-text">60 days</text>
+    <text x="1200" y="844" class="table-text">Blocked • Overdue</text>
+  </g>
+
+  <text x="24" y="888" class="small">Synthetic portfolio data • Risk conditions can overlap; At Risk counts each item once • No internal or personal data</text>
+  <text x="1416" y="888" text-anchor="end" class="small">Risks and Bottlenecks • Public mockup</text>
+</svg>
