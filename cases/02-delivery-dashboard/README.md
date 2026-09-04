@@ -194,10 +194,10 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 ## Published artifacts
 
 - [Synthetic delivery work-item dataset](data/synthetic-work-items.csv)
+- [Delivery Dashboard Metric Dictionary](metric-dictionary.md)
 
 ## Planned public artifacts
 
-- metric and business-rule dictionary;
 - anonymized semantic-model design;
 - public dashboard screenshots;
 - data-preparation notes;
