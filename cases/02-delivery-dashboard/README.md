@@ -14,6 +14,8 @@ The public case is anonymized. Names, organizations, project identifiers, intern
 
 ![Synthetic delivery backlog](../../assets/delivery-backlog.svg)
 
+![Synthetic delivery risks and bottlenecks](../../assets/delivery-risks.svg)
+
 ## Business challenge
 
 Data Governance programs usually span policies, metadata, data quality, privacy, access, lifecycle, architecture, and multiple business domains. When delivery information remains only in a work-management tool, leaders may struggle to answer:
@@ -208,6 +210,7 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 - [Synthetic Executive Overview Mockup](../../assets/delivery-executive-overview.svg)
 - [Synthetic Operational Overview Mockup](../../assets/delivery-operational-overview.svg)
 - [Synthetic Delivery Backlog Mockup](../../assets/delivery-backlog.svg)
+- [Synthetic Risks and Bottlenecks Mockup](../../assets/delivery-risks.svg)
 
 ## Planned public artifacts
 
