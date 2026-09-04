@@ -196,11 +196,11 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 - [Synthetic delivery work-item dataset](data/synthetic-work-items.csv)
 - [Delivery Dashboard Metric Dictionary](metric-dictionary.md)
 - [Delivery Dashboard Semantic Model](semantic-model.md)
+- [Delivery Dashboard Data Preparation](data-preparation.md)
 
 ## Planned public artifacts
 
 - public dashboard screenshots;
-- data-preparation notes;
 - release-validation checklist;
 - sanitized Power BI template, after full inspection and testing.
 
