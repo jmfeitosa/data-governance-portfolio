@@ -195,10 +195,10 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 
 - [Synthetic delivery work-item dataset](data/synthetic-work-items.csv)
 - [Delivery Dashboard Metric Dictionary](metric-dictionary.md)
+- [Delivery Dashboard Semantic Model](semantic-model.md)
 
 ## Planned public artifacts
 
-- anonymized semantic-model design;
 - public dashboard screenshots;
 - data-preparation notes;
 - release-validation checklist;
