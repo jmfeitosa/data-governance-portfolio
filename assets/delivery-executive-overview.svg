@@ -218,7 +218,7 @@
 
     <circle cx="687" cy="823" r="9" fill="#ECFDF3"/>
     <text x="687" y="827" text-anchor="middle" font-size="11" font-weight="800" fill="#2E7D32">3</text>
-    <text x="708" y="827" class="insight">Governance Foundation and Metadata and Lineage lead at 55% complete.</text>
+    <text x="708" y="827" class="insight">Two workstreams lead at 55% completion.</text>
 
     <rect x="1240" y="742" width="150" height="86" rx="8" fill="#F0F9FF"/>
     <text x="1315" y="768" text-anchor="middle" class="label">UNASSIGNED OPEN</text>
