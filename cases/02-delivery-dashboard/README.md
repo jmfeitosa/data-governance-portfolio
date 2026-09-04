@@ -191,9 +191,12 @@ The following materials will not be published in their original form:
 
 The portfolio version will use synthetic work items, generic workstreams, fictional assignees, and parameterized source settings.
 
+## Published artifacts
+
+- [Synthetic delivery work-item dataset](data/synthetic-work-items.csv)
+
 ## Planned public artifacts
 
-- synthetic delivery dataset;
 - metric and business-rule dictionary;
 - anonymized semantic-model design;
 - public dashboard screenshots;
