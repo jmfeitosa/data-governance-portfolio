@@ -109,12 +109,12 @@ The framework is informed by:
 - [Data Governance RACI Matrix](raci-matrix.md)
 - [Data Classification Matrix](data-classification-matrix.md)
 - [Data Governance Lifecycle](governance-lifecycle.md)
+- [Data Governance KPI Catalog](governance-kpis.md)
 
 ## Next deliverables
 
 This case will be expanded with:
 
-- sample KPIs and control evidence;
 - a Portuguese version.
 
 ## Important note
