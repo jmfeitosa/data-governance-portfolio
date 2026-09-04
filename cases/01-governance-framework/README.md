@@ -108,12 +108,12 @@ The framework is informed by:
 - [Tool-Agnostic Data Governance Framework](framework.md)
 - [Data Governance RACI Matrix](raci-matrix.md)
 - [Data Classification Matrix](data-classification-matrix.md)
+- [Data Governance Lifecycle](governance-lifecycle.md)
 
 ## Next deliverables
 
 This case will be expanded with:
 
-- a governance lifecycle diagram;
 - sample KPIs and control evidence;
 - a Portuguese version.
 
