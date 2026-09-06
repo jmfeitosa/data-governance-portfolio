@@ -2,7 +2,7 @@
 
 [Back to portfolio](../../README.md)
 
-**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and reviewed Power BI template. Screenshots of the running template are pending.
+**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and reviewed Power BI template. A screenshot of the running template is published below.
 
 A portfolio case demonstrating how a structured maturity assessment can translate governance controls into measurable gaps, priorities, and an actionable improvement roadmap.
 
@@ -77,6 +77,12 @@ A numeric score does not replace professional judgment. Evidence quality, contro
 - [Power BI template](powerbi/DataGovernance_Maturity_Assessment.pbit)
 - [Power BI usage guide](powerbi/README.md)
 
+## Dashboard screenshot
+
+![Maturity Assessment — synthetic Power BI report](../../assets/maturity-assessment-overview.png)
+
+Actual screenshot supplied by the author from the reviewed synthetic template. Date: 2026-09-01; score: 1.75/3; percentage of maximum: 58.3%. Automatic legend and slicer text still includes Portuguese labels; an English-only visual polish pass remains.
+
 ## Explore the demonstration
 
 The fictional baseline contains 32 validated controls across eight domains. Its overall score is **1.75 / 3**. The Power BI template reproduces the domain aggregates using an inline synthetic table; it does **not** automatically import the 33-column CSV.
@@ -110,7 +116,4 @@ Synthetic records will preserve the analytical structure without reproducing con
 
 Core documentation and the sanitized template are published. The author confirmed successful Desktop use and supplied the reviewed export; a follow-up static review found no original personal/corporate references in the checked content. Power BI Service deployment is outside this demonstration.
 
-Remaining: add screenshots captured from the reviewed template. The template description still contains an earlier validation-pending note; this is a metadata wording issue retained to preserve the tested file.
-
-
-The case structure and publication safeguards are defined. The maturity model, questionnaire, synthetic dataset, roadmap, dashboard assets, and sanitized Power BI template will be added incrementally.
+Screenshot published. Remaining: English legend/slicer polish. The template description still contains an earlier validation-pending note; this is a metadata wording issue retained to preserve the tested file.

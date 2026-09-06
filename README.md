@@ -19,6 +19,10 @@ I am a Data Governance Analyst focused on turning policies into practical respon
 
 The template uses an inline fictional baseline: **8 domains, an overall score of 1.75 out of 3, and no corporate data connection**. It is an aggregate demonstration; the separate 33-column assessment CSV provides control-level detail.
 
+![Maturity Assessment — synthetic Power BI report](assets/maturity-assessment-overview.png)
+
+*Actual Desktop screenshot supplied by the author. Some automatic legend/slicer labels retain Portuguese localization.*
+
 ## Delivery dashboard preview
 
 ![Delivery executive overview — synthetic design mockup](assets/delivery-executive-overview.svg)
@@ -43,7 +47,7 @@ The Maturity template was sanitized, reviewed for residual references, and retur
 
 - [Recruiter materials](docs/)
 - [Publication tracker](docs/publication-status.md)
-- Real Maturity screenshots and the sanitized Delivery template remain pending.
+- Maturity screenshot published. Delivery candidate prepared; Desktop validation and final export review remain pending.
 
 ## Contact
 
