@@ -1,5 +1,7 @@
 # Data Governance Framework
 
+[Back to portfolio](../../README.md)
+
 > A tool-agnostic operating model for governing data across its lifecycle, from collection and storage to sharing, retention, archival, and disposal.
 
 ## Overview
@@ -111,11 +113,9 @@ The framework is informed by:
 - [Data Governance Lifecycle](governance-lifecycle.md)
 - [Data Governance KPI Catalog](governance-kpis.md)
 
-## Next deliverables
+## Publication status
 
-This case will be expanded with:
-
-- a Portuguese version.
+The core English documentation is published. These are adaptable governance designs; the repository does not claim independent certification or measured client outcomes.
 
 ## Important note
 

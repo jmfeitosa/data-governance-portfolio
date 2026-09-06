@@ -1,8 +1,12 @@
 # Data Governance Maturity Assessment
 
+[Back to portfolio](../../README.md)
+
+**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and reviewed Power BI template. Screenshots of the running template are pending.
+
 A portfolio case demonstrating how a structured maturity assessment can translate governance controls into measurable gaps, priorities, and an actionable improvement roadmap.
 
-> **Portfolio notice:** all public examples and future assessment results in this repository use synthetic data. Names, email addresses, organizations, responses, evidence, scores, infrastructure details, and other internal information from the original work are excluded.
+> **Portfolio notice:** all public examples and assessment results in this repository use synthetic data. Names, email addresses, organizations, responses, evidence, scores, infrastructure details, and other internal information from the original work are excluded.
 
 ## Business Challenge
 
@@ -42,7 +46,7 @@ Controls are scored on a four-point scale:
 | 2 | Defined and Managed | Processes are documented, standardized, assigned, and managed |
 | 3 | Optimized | Processes are measured, reviewed, and continuously improved |
 
-The domain score is the arithmetic mean of its four control scores. The overall maturity score is the mean of the eight domain scores.
+For the complete synthetic baseline, the domain score is the arithmetic mean of its four validated control scores, and the overall score is the mean of the eight domain scores. Do not substitute zero for missing or unverified responses. Partial assessments require the eligibility and coverage rules in the [scoring methodology](scoring-methodology.md).
 
 ```text
 Domain Score = Sum of control scores in the domain / 4
@@ -62,31 +66,22 @@ A numeric score does not replace professional judgment. Evidence quality, contro
 7. Publish a phased improvement roadmap.
 8. Reassess periodically to measure progress.
 
-## Expected Deliverables
+## Published artifacts
 
-- Assessment questionnaire
-- Scoring methodology and maturity-level definitions
-- Evidence register
-- Synthetic assessment dataset
-- Domain and overall score dashboard
-- Gap and priority analysis
-- Phased governance roadmap
-- Sanitized Power BI template
+- [Maturity model](maturity-model.md)
+- [Assessment questionnaire](assessment-questionnaire.md)
+- [Scoring methodology](scoring-methodology.md)
+- [Improvement roadmap](improvement-roadmap.md)
+- [Synthetic assessment results](data/synthetic-assessment-results.csv)
+- [Data dictionary and CSV import guidance](data-dictionary.md)
+- [Power BI template](powerbi/DataGovernance_Maturity_Assessment.pbit)
+- [Power BI usage guide](powerbi/README.md)
 
-## Planned Repository Structure
+## Explore the demonstration
 
-```text
-03-maturity-assessment/
-├── README.md
-├── maturity-model.md
-├── assessment-questionnaire.md
-├── scoring-methodology.md
-├── improvement-roadmap.md
-└── data/
-    └── synthetic-assessment-results.csv
-```
+The fictional baseline contains 32 validated controls across eight domains. Its overall score is **1.75 / 3**. The Power BI template reproduces the domain aggregates using an inline synthetic table; it does **not** automatically import the 33-column CSV.
 
-Dashboard images will be stored in the repository-level `assets/` directory.
+Use the CSV and methodology to inspect question-level evidence descriptions, targets, and roadmap links. Synthetic evidence references are illustrative labels, not links to real evidence files. The Power BI report shows **58.3% of the maximum score**, not compliance or assessment coverage.
 
 ## Privacy and Publication Controls
 
@@ -112,5 +107,10 @@ Synthetic records will preserve the analytical structure without reproducing con
 - Privacy-aware portfolio publishing
 
 ## Current Status
+
+Core documentation and the sanitized template are published. The author confirmed successful Desktop use and supplied the reviewed export; a follow-up static review found no original personal/corporate references in the checked content. Power BI Service deployment is outside this demonstration.
+
+Remaining: add screenshots captured from the reviewed template. The template description still contains an earlier validation-pending note; this is a metadata wording issue retained to preserve the tested file.
+
 
 The case structure and publication safeguards are defined. The maturity model, questionnaire, synthetic dataset, roadmap, dashboard assets, and sanitized Power BI template will be added incrementally.

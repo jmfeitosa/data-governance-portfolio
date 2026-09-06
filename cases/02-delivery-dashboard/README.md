@@ -2,11 +2,17 @@
 
 > A Power BI delivery-monitoring solution that translates work-management data into executive governance visibility, operational follow-up, and actionable risk indicators.
 
+[Back to portfolio](../../README.md)
+
+**Published:** documentation, synthetic dataset, and four SVG design mockups. **Pending:** sanitized Delivery Power BI template and screenshots from the running public report.
+
 ## Overview
 
 This case presents a delivery dashboard designed to monitor the implementation of a Data Governance program. The solution connects Power BI to work-item data from Azure DevOps Analytics and organizes execution information into executive, operational, and backlog views.
 
 The public case is anonymized. Names, organizations, project identifiers, internal URLs, and business-sensitive records from the original implementation are not included.
+
+The images below are **synthetic design mockups**, not screenshots from a running Power BI report.
 
 ![Synthetic executive dashboard overview](../../assets/delivery-executive-overview.svg)
 
@@ -43,7 +49,7 @@ The dashboard converts work-item data into a governed monitoring layer with:
 ## Solution architecture
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["Work-management platform"] --> B["Analytics OData API"]
     B --> C["Power Query"]
     C --> D["Power BI semantic model"]
