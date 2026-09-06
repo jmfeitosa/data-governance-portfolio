@@ -4,11 +4,11 @@
 
 [Back to portfolio](../../README.md)
 
-**Published:** documentation, synthetic dataset, and four SVG design mockups. **Pending:** sanitized Delivery Power BI template and screenshots from the running public report.
+**Published:** documentation, synthetic dataset, four SVG design mockups, and reviewed synthetic Delivery Power BI template. **Remaining:** actual Delivery screenshots, English visual polish, and the dedicated risks page.
 
 ## Overview
 
-This case presents a delivery dashboard designed to monitor the implementation of a Data Governance program. The solution connects Power BI to work-item data from Azure DevOps Analytics and organizes execution information into executive, operational, and backlog views.
+This case presents a delivery dashboard designed to monitor the implementation of a Data Governance program. The original solution connected Power BI to work-item data from Azure DevOps Analytics and organizes execution information into executive, operational, and backlog views.
 
 The public case is anonymized. Names, organizations, project identifiers, internal URLs, and business-sensitive records from the original implementation are not included.
 
@@ -57,7 +57,7 @@ flowchart TD
     E --> F["Executive and operational views"]
 ```
 
-The original solution uses an Azure DevOps Analytics OData feed in import mode. The public portfolio version will use synthetic data and parameterized source references.
+The diagram describes the original architecture. The published public template uses embedded synthetic tables derived from the CSV, with no OData connection. It preserves the legacy two-table model and its relationships; the star schema below remains a proposed redesign.
 
 ## Dashboard views
 
@@ -78,7 +78,7 @@ The original solution uses an Azure DevOps Analytics OData feed in import mode. 
 | Active items | How much work is currently in progress? |
 | In validation | Which items are waiting for review or acceptance? |
 | On hold | Which items are formally paused? |
-| At-risk items | Which active items exceed the approved ageing or inactivity rule? |
+| At-risk items | Which open delivery items are blocked, overdue, or stale? |
 | Workstream progress | How does delivery performance vary across workstreams? |
 | Workload by assignee | How is active work distributed across responsible roles? |
 | Backlog composition | Which types and states make up the current portfolio? |
@@ -87,7 +87,7 @@ Metric definitions must use consistent work-item scopes, normalized statuses, an
 
 ## Data model
 
-The assessed implementation contains:
+The original assessed implementation contained the following components. This is a historical inventory, not the exact count after sanitization:
 
 | Component | Assessed template |
 | --- | ---: |
@@ -155,7 +155,7 @@ The dashboard design applies the following controls:
 
 ## Technical assessment findings
 
-The technical-functional review identified opportunities to improve reliability and maintainability:
+The original technical-functional review identified the findings below. The public release removes fixed personal filters, normalizes synthetic statuses, and corrects core scope, completion, risk and age calculations. See the [release notes](powerbi/README.md) for the implemented changes and remaining limitations:
 
 | Finding | Potential impact | Recommended treatment |
 | --- | --- | --- |
@@ -203,9 +203,12 @@ The following materials will not be published in their original form:
 - screenshots containing identifiable delivery data;
 - the original Power BI template while internal references remain embedded.
 
-The portfolio version will use synthetic work items, generic workstreams, fictional assignees, and parameterized source settings.
+The published template uses synthetic work items, generic workstreams and fictional assignees embedded in the model queries. Snapshot Date is fixed at 2025-07-31 for reproducibility.
 
 ## Published artifacts
+
+- [Reviewed Power BI template](powerbi/DataGovernance_Delivery.pbit)
+- [Template usage and release notes](powerbi/README.md)
 
 - [Synthetic delivery work-item dataset](data/synthetic-work-items.csv)
 - [Delivery Dashboard Metric Dictionary](metric-dictionary.md)
@@ -220,8 +223,9 @@ The portfolio version will use synthetic work items, generic workstreams, fictio
 
 ## Planned public artifacts
 
-- public dashboard screenshots;
-- sanitized Power BI template, after full inspection and testing.
+- actual dashboard screenshots;
+- a working dedicated risks page;
+- complete English visual labels and the proposed star-schema redesign.
 
 ## Important note
 
