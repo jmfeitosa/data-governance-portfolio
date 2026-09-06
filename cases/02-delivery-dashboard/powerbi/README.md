@@ -41,7 +41,7 @@ The following figures are calculated independently from the synthetic CSV. Succe
 
 The file retains ADO_WorkItems and DG_WorkItems, their legacy relationship structure and some Portuguese internal names. It is not the proposed FactWorkItems star schema. The source is an embedded snapshot, not a live CSV import.
 
-The four SVG assets illustrate design requirements and are not exact screenshots of this release. The dedicated risks page is still unimplemented. Complete English legends/tooltips, dynamic Top 5 ranking and screenshots remain follow-up work. Review visual titles and scope when interpreting any legacy chart.
+The four SVG assets illustrate design requirements and are not exact screenshots of this release. The dedicated risks page is still unimplemented. [Actual Desktop screenshots](../README.md#dashboard-screenshots) are now published. Complete English legends/tooltips, dynamic Top 5 ranking and layout polish remain follow-up work. The operational card labeled DELAYED ITEMS displays the broader at-risk measure; rename it AT RISK ITEMS. Executive In Progress includes Active plus In Validation, so these cards overlap. Review visual titles and scope when interpreting any legacy chart.
 
 The description inside the tested PBIT retains candidate/validation wording from the earlier export. It has been left unchanged to preserve the Desktop-reviewed bytes.
 

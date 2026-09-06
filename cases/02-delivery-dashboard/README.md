@@ -4,7 +4,7 @@
 
 [Back to portfolio](../../README.md)
 
-**Published:** documentation, synthetic dataset, four SVG design mockups, and reviewed synthetic Delivery Power BI template. **Remaining:** actual Delivery screenshots, English visual polish, and the dedicated risks page.
+**Published:** documentation, synthetic dataset, four Desktop screenshots, four SVG design mockups, and reviewed synthetic Delivery Power BI template. **Remaining:** visual and English polish, and the dedicated risks page.
 
 ## Overview
 
@@ -12,15 +12,43 @@ This case presents a delivery dashboard designed to monitor the implementation o
 
 The public case is anonymized. Names, organizations, project identifiers, internal URLs, and business-sensitive records from the original implementation are not included.
 
-The images below are **synthetic design mockups**, not screenshots from a running Power BI report.
+## Dashboard screenshots
 
-![Synthetic executive dashboard overview](../../assets/delivery-executive-overview.svg)
+Actual screenshots supplied by the author from the synthetic Power BI Desktop report. These captures preserve the report as tested, including existing label and layout limitations.
 
-![Synthetic operational dashboard overview](../../assets/delivery-operational-overview.svg)
+### Home
 
-![Synthetic delivery backlog](../../assets/delivery-backlog.svg)
+![Delivery report navigation](../../assets/delivery-home-screenshot.png)
 
-![Synthetic delivery risks and bottlenecks](../../assets/delivery-risks.svg)
+### Executive overview
+
+![Delivery executive overview](../../assets/delivery-executive-screenshot.png)
+
+The cards show 60 portfolio items, approximately 32% delivery completion, 21 in-progress items, 5 in validation, 5 on hold and 36 at risk. In progress includes 16 Active plus 5 In Validation; those cards are not mutually exclusive.
+
+### Operational overview
+
+![Delivery operational overview](../../assets/delivery-operational-screenshot.png)
+
+The cards show 53 executable delivery items, 17 completed and 16 active. The card currently titled “DELAYED ITEMS” shows the broader **at-risk** measure (36); it should be renamed “AT RISK ITEMS”. At-risk includes blocked, overdue or stale work and is not synonymous with overdue work.
+
+### Backlog
+
+![Synthetic delivery backlog](../../assets/delivery-backlog-screenshot.png)
+
+The backlog contains fictional work-item titles and role-based assignees. Some filters display “Todos” because of localization.
+
+### Design references
+
+The SVGs remain available as separate design mockups: [Executive](../../assets/delivery-executive-overview.svg), [Operational](../../assets/delivery-operational-overview.svg), [Backlog](../../assets/delivery-backlog.svg), and [Risks](../../assets/delivery-risks.svg). The Risks mockup is not evidence of an implemented risks page.
+
+### Visual follow-up
+
+- Expand the workstream health cards so names and percentages are fully visible.
+- Translate automatic labels such as “Carga”, “Total de Tasks ADO” and “Todos”.
+- Rename delayed labels that actually display at-risk counts; make the overlapping In Progress / In Validation scope explicit.
+- Improve long-title wrapping and column widths in the backlog; remove hover tooltips and editor tabs in future presentation captures.
+- The work-item-type chart includes Epics and Features; label it as portfolio scope, distinct from the 53-item delivery cards.
 
 ## Business challenge
 
@@ -223,7 +251,6 @@ The published template uses synthetic work items, generic workstreams and fictio
 
 ## Planned public artifacts
 
-- actual dashboard screenshots;
 - a working dedicated risks page;
 - complete English visual labels and the proposed star-schema redesign.
 

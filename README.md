@@ -9,7 +9,7 @@ I am a Data Governance Analyst focused on turning policies into practical respon
 | Case | Business question | Published evidence |
 | --- | --- | --- |
 | [01 — Governance Framework](cases/01-governance-framework/) | Who owns the data, and how should it be governed? | Framework, RACI, classification matrix, lifecycle, and KPI catalog |
-| [02 — Delivery Dashboard](cases/02-delivery-dashboard/) | What is progressing, and where does delivery need attention? | Synthetic CSV, metric definitions, model specification, preparation guide, release checklist, four SVG mockups, and reviewed Power BI template |
+| [02 — Delivery Dashboard](cases/02-delivery-dashboard/) | What is progressing, and where does delivery need attention? | Synthetic CSV, metric definitions, model specification, preparation guide, release checklist, four Desktop screenshots, design mockups, and reviewed Power BI template |
 | [03 — Maturity Assessment](cases/03-maturity-assessment/) | Which governance gaps should be addressed first? | 32-question model, scoring rules, synthetic results, roadmap, data dictionary, and reviewed Power BI template |
 | [04 — Access Governance](cases/04-access-governance/) | Who should have access, who approves it, and when should it end? | Demonstration operating model, permissions matrix, access lifecycle, review procedure, synthetic evidence, and metrics |
 
@@ -25,9 +25,9 @@ The template uses an inline fictional baseline: **8 domains, an overall score of
 
 ## Delivery dashboard preview
 
-![Delivery executive overview — synthetic design mockup](assets/delivery-executive-overview.svg)
+![Delivery executive overview — Power BI Desktop screenshot with synthetic data](assets/delivery-executive-screenshot.png)
 
-*Design mockup using synthetic data, not a screenshot of a deployed Power BI report. The reviewed Delivery template is available below.*
+*Actual screenshot of the synthetic Desktop report. The [case gallery](cases/02-delivery-dashboard/#dashboard-screenshots) includes Home, Executive, Operational and Backlog views.*
 
 [Download the Delivery template](cases/02-delivery-dashboard/powerbi/DataGovernance_Delivery.pbit?raw=true) · [Usage and release notes](cases/02-delivery-dashboard/powerbi/README.md)
 
@@ -49,7 +49,7 @@ The Maturity template was sanitized, reviewed for residual references, and retur
 
 - [Recruiter materials](docs/)
 - [Publication tracker](docs/publication-status.md)
-- Maturity screenshot and both reviewed Power BI templates are published. Delivery screenshots, the dedicated risks page, and English visual polish remain.
+- Maturity screenshot and both reviewed Power BI templates are published. Delivery screenshots are also published. The dedicated risks page and visual/English polish remain.
 
 ## Contact
 
