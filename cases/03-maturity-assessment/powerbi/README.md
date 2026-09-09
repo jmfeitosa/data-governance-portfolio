@@ -2,38 +2,14 @@
 
 [Back to the case](../README.md)
 
-[Download the template](DataGovernance_Maturity_Assessment.pbit?raw=true).
+**Current edition: v2.2 EN**, a four-page Power BI project.
 
-## Open and inspect
+[Download the English project ZIP](DataGovernance_Maturity_Assessment_v2.2_EN.zip?raw=true) · [Browse project source](v2.2-en/) · [Opening instructions and expected values](v2.2-en/README.md)
 
-1. Download the PBIT and open it in Power BI Desktop.
-2. Allow the model to load and refresh.
-3. Inspect the organization/unit and assessment-date slicers; use CLEAR FILTERS to reset selections.
-4. Check the eight-domain radar and the expected values below.
+Extract the complete ZIP and open `Maturity.pbip` in Power BI Desktop, then select **Refresh**. Keep both companion folders beside the PBIP. The project uses one inline synthetic assessment with an overall score of **1.75 / 3.00**, **58.3% of maximum**, and maturity level **Defined**. No corporate connection or external Excel file is required.
 
-The model queries contain inline synthetic values and require no original Excel workbook, corporate credentials, or external source connection. Rendering the packaged radar visual depends on your Desktop configuration and visual policies.
+The author approved the Portuguese v2.2 layout and confirmed Desktop opening. The English edition preserves that layout and calculation logic and passed static checks; execution and English screenshot capture in Desktop remain pending. Native slicer/interface language follows Desktop settings.
 
-| Check | Expected |
-| --- | --- |
-| Fictional organization/unit | Synthetic Organization / Unit A |
-| Assessment date | 2026-09-01 |
-| Overall score | 1.75 |
-| Maximum score | 3 |
-| Percentage of maximum | 58.3% |
-| Domain scores D01–D08 | 2.00, 1.50, 2.00, 1.00, 2.50, 1.00, 2.25, 1.75 |
+The [earlier reviewed PBIT](DataGovernance_Maturity_Assessment.pbit?raw=true) is retained as a legacy artifact. It is not the v2.2 English project and still contains Portuguese labels. Use the ZIP above for the current edition.
 
-## Scope and limitations
-
-This is the aggregate SYN-MAT-BASE-001 scenario. It is not connected to [synthetic-assessment-results.csv](../data/synthetic-assessment-results.csv). Importing that CSV requires the separate [data dictionary](../data-dictionary.md) and a model adapted to its control-level grain.
-
-Do not interpret the percentage as compliance, coverage, or certification. Internal model identifiers retain some Portuguese names to preserve visual bindings; report-facing labels are in English.
-
-## Review status
-
-The author successfully tested the sanitized candidate in Desktop and returned a reviewed export. ZIP integrity, source queries, saved report metadata and known original identifiers were checked again before publication. No Service deployment or scheduled-refresh verification is claimed.
-
-The tested file is published unchanged. Its description retains the earlier phrase “Desktop validation required”; this wording predates the author's successful test.
-
-## Screenshot capture
-
-Open the reviewed public template, reset slicers, and capture the full report canvas with all eight domains readable. Capture a second filtered view only if useful. Exclude account menus, local paths, desktop notifications and unrelated windows. Store approved images in the root assets directory, then embed them in the case README.
+This aggregate demonstration is separate from [synthetic-assessment-results.csv](../data/synthetic-assessment-results.csv). See the [data dictionary](../data-dictionary.md) for that control-level dataset. No Service deployment or scheduled-refresh verification is claimed.

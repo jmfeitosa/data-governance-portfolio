@@ -10,18 +10,16 @@ I am a Data Governance Analyst focused on turning policies into practical respon
 | --- | --- | --- |
 | [01 — Governance Framework](cases/01-governance-framework/) | Who owns the data, and how should it be governed? | Framework, RACI, classification matrix, lifecycle, and KPI catalog |
 | [02 — Delivery Dashboard](cases/02-delivery-dashboard/) | What is progressing, and where does delivery need attention? | Synthetic CSV, metric definitions, model specification, preparation guide, release checklist, four Desktop screenshots, design mockups, and reviewed Power BI template |
-| [03 — Maturity Assessment](cases/03-maturity-assessment/) | Which governance gaps should be addressed first? | 32-question model, scoring rules, synthetic results, roadmap, data dictionary, and reviewed Power BI template |
+| [03 — Maturity Assessment](cases/03-maturity-assessment/) | Which governance gaps should be addressed first? | 32-question model, scoring rules, synthetic results, roadmap, data dictionary, and four-page Power BI project v2.2 EN |
 | [04 — Access Governance](cases/04-access-governance/) | Who should have access, who approves it, and when should it end? | Demonstration operating model, permissions matrix, access lifecycle, review procedure, synthetic evidence, and metrics |
 
 ## Featured Power BI demonstration
 
-[Download the Maturity Assessment template](cases/03-maturity-assessment/powerbi/DataGovernance_Maturity_Assessment.pbit?raw=true) and follow the [usage guide](cases/03-maturity-assessment/powerbi/README.md).
+[Download the Maturity Assessment v2.2 English project](cases/03-maturity-assessment/powerbi/DataGovernance_Maturity_Assessment_v2.2_EN.zip?raw=true) and follow the [usage guide](cases/03-maturity-assessment/powerbi/README.md).
 
-The template uses an inline fictional baseline: **8 domains, an overall score of 1.75 out of 3, and no corporate data connection**. It is an aggregate demonstration; the separate 33-column assessment CSV provides control-level detail.
+The project uses an inline fictional baseline: **8 domains, an overall score of 1.75 out of 3, and no corporate data connection**. It is an aggregate demonstration; the separate 33-column assessment CSV provides control-level detail.
 
-![Maturity Assessment — synthetic Power BI report](assets/maturity-assessment-overview.png)
-
-*Actual Desktop screenshot supplied by the author. Some automatic legend/slicer labels retain Portuguese localization.*
+Four pages cover executive overview, pillar profile, assessment history, and quality/methodology. The Portuguese v2.2 layout was approved in Desktop; the English edition passed static checks. English Desktop screenshots remain pending.
 
 ## Delivery dashboard preview
 
@@ -43,13 +41,13 @@ The template uses an inline fictional baseline: **8 domains, an overall score of
 
 These are public adaptations and demonstration designs. Synthetic records and scores are fictional and do not represent employer or client outcomes. Design proposals are distinguished from implemented or tested artifacts. The access-governance case is a newly authored demonstration, not evidence of a deployed access platform.
 
-The Maturity template was sanitized, reviewed for residual references, and returned by the author after successful Power BI Desktop testing. This does not establish Power BI Service deployment, scheduled refresh, or production security assurance.
+The Maturity v2.2 English project uses local synthetic data and preserves the author-approved source layout. Static translation checks do not establish Desktop execution of the English edition. This does not establish Power BI Service deployment, scheduled refresh, or production security assurance.
 
 ## Presentation and release status
 
 - [Recruiter materials](docs/)
 - [Publication tracker](docs/publication-status.md)
-- Maturity screenshot and both reviewed Power BI templates are published. Delivery screenshots are also published. The dedicated risks page and visual/English polish remain.
+- Maturity v2.2 EN source and ZIP are published; English Desktop validation and screenshots remain pending. Delivery screenshots and the reviewed Delivery template are published; its dedicated risks page and visual/English polish remain.
 
 ## Contact
 

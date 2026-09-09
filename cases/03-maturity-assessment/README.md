@@ -2,7 +2,7 @@
 
 [Back to portfolio](../../README.md)
 
-**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and reviewed Power BI template. A screenshot of the running template is published below.
+**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and the **v2.2 English Power BI project** with four report pages.
 
 A portfolio case demonstrating how a structured maturity assessment can translate governance controls into measurable gaps, priorities, and an actionable improvement roadmap.
 
@@ -74,18 +74,38 @@ A numeric score does not replace professional judgment. Evidence quality, contro
 - [Improvement roadmap](improvement-roadmap.md)
 - [Synthetic assessment results](data/synthetic-assessment-results.csv)
 - [Data dictionary and CSV import guidance](data-dictionary.md)
-- [Power BI template](powerbi/DataGovernance_Maturity_Assessment.pbit)
+- [Power BI v2.2 English project — ZIP download](powerbi/DataGovernance_Maturity_Assessment_v2.2_EN.zip?raw=true)
+- [Editable Power BI project source](powerbi/v2.2-en/)
 - [Power BI usage guide](powerbi/README.md)
 
-## Dashboard screenshot
+## Dashboard v2.2 — English edition
 
-![Maturity Assessment — synthetic Power BI report](../../assets/maturity-assessment-overview.png)
+| Page | Decision supported |
+| --- | --- |
+| Executive overview | Understand the latest assessment and investigate low-scoring pillars |
+| Pillar profile | Compare eight pillars on a fixed 0–3 radar scale |
+| Assessment history | Inspect valid assessments, historical averages and period comparisons |
+| Quality and methodology | Identify structural data issues and interpret the scoring rules |
 
-Actual screenshot supplied by the author from the reviewed synthetic template. Date: 2026-09-01; score: 1.75/3; percentage of maximum: 58.3%. Automatic legend and slicer text still includes Portuguese labels; an English-only visual polish pass remains.
+The author approved the Portuguese v2.2 layout and confirmed that it opens in Power BI Desktop. The English edition preserves the layout and calculation logic, with translated report text, pillar labels, maturity levels and status messages. It passed static validation; Desktop execution and screenshots of the translated edition remain pending. Native interface/slicer language depends on Desktop settings.
+
+### Aggregate maturity bands
+
+These bands classify the unrounded overall score; they are separate from the questionnaire's 0–3 control-response categories.
+
+| Overall score | Dashboard level |
+| --- | --- |
+| 0 ≤ score < 0.75 | Initial |
+| 0.75 ≤ score < 1.50 | Developing |
+| 1.50 ≤ score < 2.25 | Defined |
+| 2.25 ≤ score < 2.75 | Managed |
+| 2.75 ≤ score ≤ 3.00 | Optimized |
+
+The synthetic baseline is **Defined**. A scale maximum of 3.00 is not an approved target. `Validated` describes a structurally valid aggregate record; question completion and supporting evidence are outside this project's data scope.
 
 ## Explore the demonstration
 
-The fictional baseline contains 32 validated controls across eight domains. Its overall score is **1.75 / 3**. The Power BI template reproduces the domain aggregates using an inline synthetic table; it does **not** automatically import the 33-column CSV.
+The fictional baseline contains 32 validated controls across eight domains. Its overall score is **1.75 / 3**. The Power BI project reproduces the domain aggregates using an inline synthetic table; it does **not** automatically import the 33-column CSV.
 
 Use the CSV and methodology to inspect question-level evidence descriptions, targets, and roadmap links. Synthetic evidence references are illustrative labels, not links to real evidence files. The Power BI report shows **58.3% of the maximum score**, not compliance or assessment coverage.
 
@@ -114,6 +134,4 @@ Synthetic records will preserve the analytical structure without reproducing con
 
 ## Current Status
 
-Core documentation and the sanitized template are published. The author confirmed successful Desktop use and supplied the reviewed export; a follow-up static review found no original personal/corporate references in the checked content. Power BI Service deployment is outside this demonstration.
-
-Screenshot published. Remaining: English legend/slicer polish. The template description still contains an earlier validation-pending note; this is a metadata wording issue retained to preserve the tested file.
+The v2.2 English project, download package and usage guide are published. The original Portuguese v2.2 was visually approved and opened in Desktop by the author. Static checks cover the translated project; Desktop rendering of this edition and English screenshots remain pending. The legacy PBIT remains available through the usage guide. Power BI Service deployment is outside this demonstration.
