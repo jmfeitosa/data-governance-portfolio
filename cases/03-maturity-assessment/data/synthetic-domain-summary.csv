@@ -1,0 +1,9 @@
+domain_id,domain_name,aggregate_score,scale_maximum,data_status
+D01,Governance Policy and Data Classification,2.00,3.00,Synthetic
+D02,Data Lineage and Metadata Repository,1.50,3.00,Synthetic
+D03,Data Quality,2.00,3.00,Synthetic
+D04,Master and Reference Data,1.00,3.00,Synthetic
+D05,Data Security and Access,2.50,3.00,Synthetic
+D06,Data Lifecycle,1.00,3.00,Synthetic
+D07,Data Collection and Sharing,2.25,3.00,Synthetic
+D08,Data Audit and Compliance,1.75,3.00,Synthetic
