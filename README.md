@@ -2,7 +2,7 @@
 
 I am a Data Governance Analyst focused on turning policies into practical responsibilities, controls, and measurable routines. This portfolio brings together governance frameworks, delivery monitoring, maturity assessment, and access governance.
 
-**Explore the operating model, inspect the evidence, and download a synthetic Power BI demonstration.** All portfolio documentation is in English.
+**Explore the operating model and inspect selected, synthetic evidence.** All portfolio documentation is in English.
 
 ## Start here
 
@@ -10,16 +10,14 @@ I am a Data Governance Analyst focused on turning policies into practical respon
 | --- | --- | --- |
 | [01 — Governance Framework](cases/01-governance-framework/) | Who owns the data, and how should it be governed? | Framework, RACI, classification matrix, lifecycle, and KPI catalog |
 | [02 — Delivery Dashboard](cases/02-delivery-dashboard/) | What is progressing, and where does delivery need attention? | Synthetic CSV, metric definitions, model specification, preparation guide, release checklist, four Desktop screenshots, design mockups, and reviewed Power BI template |
-| [03 — Maturity Assessment](cases/03-maturity-assessment/) | Which governance gaps should be addressed first? | 32-question model, scoring rules, synthetic results, roadmap, data dictionary, and four-page Power BI project v2.2 EN |
+| [03 — Maturity Assessment](cases/03-maturity-assessment/) | Which governance gaps should be addressed first? | High-level approach, synthetic aggregate results, and visual evidence |
 | [04 — Access Governance](cases/04-access-governance/) | Who should have access, who approves it, and when should it end? | Demonstration operating model, permissions matrix, access lifecycle, review procedure, synthetic evidence, and metrics |
 
-## Featured Power BI demonstration
+## Featured maturity evidence
 
-[Download the Maturity Assessment v2.2 English project](cases/03-maturity-assessment/powerbi/DataGovernance_Maturity_Assessment_v2.2_EN.zip?raw=true) and follow the [usage guide](cases/03-maturity-assessment/powerbi/README.md).
+The Maturity Assessment case presents a fictional eight-domain baseline and an aggregate result of **1.75 out of 3**. Its public scope is intentionally limited to the business problem, high-level assessment lifecycle, aggregate synthetic data, and visual evidence.
 
-The project uses an inline fictional baseline: **8 domains, an overall score of 1.75 out of 3, and no corporate data connection**. It is an aggregate demonstration; the separate 33-column assessment CSV provides control-level detail.
-
-Four pages cover executive overview, pillar profile, assessment history, and quality/methodology. The Portuguese v2.2 layout was approved in Desktop; the English edition passed static checks. English Desktop screenshots remain pending.
+Complete questionnaires, scoring logic, validation criteria, reusable delivery playbooks, detailed datasets, and editable BI source files are retained outside the public portfolio.
 
 ## Delivery dashboard preview
 
@@ -41,13 +39,17 @@ Four pages cover executive overview, pillar profile, assessment history, and qua
 
 These are public adaptations and demonstration designs. Synthetic records and scores are fictional and do not represent employer or client outcomes. Design proposals are distinguished from implemented or tested artifacts. The access-governance case is a newly authored demonstration, not evidence of a deployed access platform.
 
-The Maturity v2.2 English project uses local synthetic data and preserves the author-approved source layout. Static translation checks do not establish Desktop execution of the English edition. This does not establish Power BI Service deployment, scheduled refresh, or production security assurance.
+The maturity evidence is synthetic and demonstrates analytical communication only. It does not establish deployment, scheduled refresh, production security assurance, or the effectiveness of controls in a real organization.
+
+## Publication boundary
+
+The portfolio is a professional showcase, not the distribution channel for the complete TrustData methodology. Publication of complete methods is frozen. See the [publication policy](PUBLICATION_POLICY.md) for the current release gate and protected-content rules.
 
 ## Presentation and release status
 
 - [Recruiter materials](docs/)
 - [Publication tracker](docs/publication-status.md)
-- Maturity v2.2 EN source and ZIP are published; English Desktop validation and screenshots remain pending. Delivery screenshots and the reviewed Delivery template are published; its dedicated risks page and visual/English polish remain.
+- Case 03 is limited to high-level and aggregate evidence. Complete methods and editable BI sources are withheld. Delivery screenshots and the reviewed Delivery template remain published; its dedicated risks page and visual/English polish remain.
 
 ## Contact
 

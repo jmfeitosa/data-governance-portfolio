@@ -2,136 +2,61 @@
 
 [Back to portfolio](../../README.md)
 
-**Published:** model, questionnaire, scoring methodology, roadmap, synthetic CSV, data dictionary, and the **v2.2 English Power BI project** with four report pages.
+**Public scope:** business problem, high-level approach, assessment domains, aggregate synthetic results, and visual evidence.
 
-A portfolio case demonstrating how a structured maturity assessment can translate governance controls into measurable gaps, priorities, and an actionable improvement roadmap.
+This case demonstrates how a governance maturity review can translate evidence into a prioritized improvement conversation. The complete operating method is part of the private TrustData Framework and is not distributed through this portfolio.
 
-> **Portfolio notice:** all public examples and assessment results in this repository use synthetic data. Names, email addresses, organizations, responses, evidence, scores, infrastructure details, and other internal information from the original work are excluded.
+> All published results are fictional. No participant, organization, response, evidence file, system detail, or real assessment result is included.
 
-## Business Challenge
+## Business challenge
 
-Organizations often know that governance practices need improvement but lack a consistent way to answer three questions:
+Organizations often know that governance needs improvement but lack a consistent way to identify existing capabilities, material gaps, and the sequence of action. A maturity assessment creates a common view for stakeholders while separating evidence from opinion.
 
-1. What capabilities already exist?
-2. Where are the most relevant control gaps?
-3. Which initiatives should be prioritized first?
+## High-level assessment lifecycle
 
-This case addresses that challenge through a repeatable assessment model supported by evidence, scoring rules, visual analysis, and a phased roadmap.
+1. Confirm the business context and organizational scope.
+2. Identify accountable stakeholders and evidence sources.
+3. Review governance capabilities across agreed domains.
+4. Validate observations with control owners.
+5. Aggregate findings into a decision-oriented profile.
+6. Prioritize improvements and define follow-up governance.
 
-## Assessment Scope
+The detailed questionnaire, calculation logic, validation rules, evidence standards, prioritization method, and reusable delivery playbook are intentionally withheld.
 
-The operational assessment covers eight governance domains:
+## Assessment domains
 
-| # | Domain | Assessment focus |
-|---|---|---|
-| 1 | Governance Policy and Data Classification | Accountabilities, policies, classification, and periodic review |
-| 2 | Data Lineage and Metadata Repository | Cataloguing, ownership, lineage, and schema-change controls |
-| 3 | Data Quality | Quality rules, service levels, alerts, and remediation |
-| 4 | Master and Reference Data | Critical entities, authoritative sources, identifiers, and golden-record rules |
-| 5 | Data Security and Access | Classification-based controls, role-based access, tagging, and non-production data |
-| 6 | Data Lifecycle | Retention, archiving, disposal, cascade deletion, and audit evidence |
-| 7 | Data Collection and Sharing | Purpose, legal basis, authorization, external sharing, and consent withdrawal |
-| 8 | Data Audit and Compliance | Control testing, access reviews, inactive accounts, and security indicators |
+| # | Domain | Illustrative focus |
+| --- | --- | --- |
+| 1 | Governance Policy and Data Classification | Accountability, policy, and classification |
+| 2 | Data Lineage and Metadata Repository | Ownership, metadata, and traceability |
+| 3 | Data Quality | Rules, monitoring, and remediation |
+| 4 | Master and Reference Data | Authoritative sources and critical entities |
+| 5 | Data Security and Access | Access control and non-production protection |
+| 6 | Data Lifecycle | Retention, archiving, and disposal |
+| 7 | Data Collection and Sharing | Purpose, authorization, and controlled sharing |
+| 8 | Data Audit and Compliance | Testing, review, and corrective action |
 
-Each domain contains four control questions, producing a 32-question assessment.
+## Public evidence
 
-## Scoring Model
+- [Synthetic aggregate domain profile](data/synthetic-domain-summary.csv)
+- A fictional overall result of **1.75 / 3**
+- A dashboard image showing how the profile can support an executive discussion
 
-Controls are scored on a four-point scale:
+![Synthetic maturity assessment overview](../../assets/maturity-assessment-overview.png)
 
-| Score | Level | General interpretation |
-|---:|---|---|
-| 0 | Nonexistent | No formal initiative or repeatable control is established |
-| 1 | Reactive | Activities occur mainly in response to issues and are not standardized |
-| 2 | Defined and Managed | Processes are documented, standardized, assigned, and managed |
-| 3 | Optimized | Processes are measured, reviewed, and continuously improved |
+The image is retained as visual evidence only; some interface labels may reflect the original desktop localization. The editable report, semantic model, calculations, and distribution packages are not published.
 
-For the complete synthetic baseline, the domain score is the arithmetic mean of its four validated control scores, and the overall score is the mean of the eight domain scores. Do not substitute zero for missing or unverified responses. Partial assessments require the eligibility and coverage rules in the [scoring methodology](scoring-methodology.md).
+## Publication boundary
 
-```text
-Domain Score = Sum of control scores in the domain / 4
-Overall Score = Sum of the eight domain scores / 8
-```
-
-A numeric score does not replace professional judgment. Evidence quality, control criticality, regulatory exposure, and business context must also be considered when prioritizing action.
-
-## Assessment Workflow
-
-1. Define the organizational scope and assessment participants.
-2. Collect structured responses and supporting evidence.
-3. Validate responses with control owners and stakeholders.
-4. Calculate control, domain, and overall maturity scores.
-5. Identify gaps, dependencies, risks, and quick wins.
-6. Prioritize initiatives by business value, risk, and implementation effort.
-7. Publish a phased improvement roadmap.
-8. Reassess periodically to measure progress.
-
-## Published artifacts
-
-- [Maturity model](maturity-model.md)
-- [Assessment questionnaire](assessment-questionnaire.md)
-- [Scoring methodology](scoring-methodology.md)
-- [Improvement roadmap](improvement-roadmap.md)
-- [Synthetic assessment results](data/synthetic-assessment-results.csv)
-- [Data dictionary and CSV import guidance](data-dictionary.md)
-- [Power BI v2.2 English project — ZIP download](powerbi/DataGovernance_Maturity_Assessment_v2.2_EN.zip?raw=true)
-- [Editable Power BI project source](powerbi/v2.2-en/)
-- [Power BI usage guide](powerbi/README.md)
-
-## Dashboard v2.2 — English edition
-
-| Page | Decision supported |
+| Public evidence | Private methodology |
 | --- | --- |
-| Executive overview | Understand the latest assessment and investigate low-scoring pillars |
-| Pillar profile | Compare eight pillars on a fixed 0–3 radar scale |
-| Assessment history | Inspect valid assessments, historical averages and period comparisons |
-| Quality and methodology | Identify structural data issues and interpret the scoring rules |
+| Problem statement and outcomes supported | Complete question bank and interview prompts |
+| High-level lifecycle and domain names | Scoring formulas, thresholds, and decision rules |
+| Aggregate fictional scores | Control-level data model and evidence criteria |
+| Screenshots and narrative interpretation | Reusable templates, scripts, playbooks, and editable BI sources |
 
-The author approved the Portuguese v2.2 layout and confirmed that it opens in Power BI Desktop. The English edition preserves the layout and calculation logic, with translated report text, pillar labels, maturity levels and status messages. It passed static validation; Desktop execution and screenshots of the translated edition remain pending. Native interface/slicer language depends on Desktop settings.
+This boundary protects the implementation method while still demonstrating professional judgment, analytical structure, and communication quality. Any future expansion requires classification review and explicit owner approval under the repository [publication policy](../../PUBLICATION_POLICY.md).
 
-### Aggregate maturity bands
+## Limitations
 
-These bands classify the unrounded overall score; they are separate from the questionnaire's 0–3 control-response categories.
-
-| Overall score | Dashboard level |
-| --- | --- |
-| 0 ≤ score < 0.75 | Initial |
-| 0.75 ≤ score < 1.50 | Developing |
-| 1.50 ≤ score < 2.25 | Defined |
-| 2.25 ≤ score < 2.75 | Managed |
-| 2.75 ≤ score ≤ 3.00 | Optimized |
-
-The synthetic baseline is **Defined**. A scale maximum of 3.00 is not an approved target. `Validated` describes a structurally valid aggregate record; question completion and supporting evidence are outside this project's data scope.
-
-## Explore the demonstration
-
-The fictional baseline contains 32 validated controls across eight domains. Its overall score is **1.75 / 3**. The Power BI project reproduces the domain aggregates using an inline synthetic table; it does **not** automatically import the 33-column CSV.
-
-Use the CSV and methodology to inspect question-level evidence descriptions, targets, and roadmap links. Synthetic evidence references are illustrative labels, not links to real evidence files. The Power BI report shows **58.3% of the maximum score**, not compliance or assessment coverage.
-
-## Privacy and Publication Controls
-
-The public version will not include:
-
-- Participant names or email addresses
-- Real organization or business-area names
-- Original answers, comments, or uploaded evidence
-- Actual maturity scores
-- Internal system, infrastructure, supplier, or project references
-- Unsanitized spreadsheet, web application, or Power BI files
-
-Synthetic records will preserve the analytical structure without reproducing confidential assessment results.
-
-## Tools and Practices
-
-- Data governance maturity assessment
-- Evidence-based control evaluation
-- Microsoft Excel
-- Power BI
-- Data visualization
-- Gap analysis and roadmap prioritization
-- Privacy-aware portfolio publishing
-
-## Current Status
-
-The v2.2 English project, download package and usage guide are published. The original Portuguese v2.2 was visually approved and opened in Desktop by the author. Static checks cover the translated project; Desktop rendering of this edition and English screenshots remain pending. The legacy PBIT remains available through the usage guide. Power BI Service deployment is outside this demonstration.
+The fictional profile is not a benchmark, certification, compliance opinion, or target. It does not evidence a deployed system or the effectiveness of controls in a real organization.
